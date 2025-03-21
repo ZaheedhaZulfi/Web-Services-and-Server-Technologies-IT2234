@@ -1,57 +1,28 @@
-1.print array
+IT2234 Practical DAY_03 - 19/03/2025
 
-![numarray](https://github.com/user-attachments/assets/e6badd2d-f324-45e6-ae6b-5a56c3af3d0c)
+FUNCTIONS IN JAVASCRIPT
 
+OUTPUTS Functions in JS
 
-2.using foreach find the maximum number of array
-
-![findmax](https://github.com/user-attachments/assets/eeaef54a-a03f-4c55-9e73-34217b908684)
-
-
-3. print the nested array
-   
-![nestedarray js](https://github.com/user-attachments/assets/7eb2af5b-63d5-4ceb-9775-ab8fb6e62b3d)
+![functions](https://github.com/user-attachments/assets/2bf00625-25f0-4e7b-9f00-92e285ec4a6d)
 
 
-4.Finding common elements between two arrays
+Finding whether a number is prime using Function
 
-![findcommonelement](https://github.com/user-attachments/assets/1b51a850-54db-4406-96ea-2805005bb1da)
-
-
-5.write a code find the all pairs that sum up to the target
-
-![findsumpairs](https://github.com/user-attachments/assets/50e1c7a3-f678-4d93-9cec-02a7249c8152)
+![isPrime](https://github.com/user-attachments/assets/9dcdfa16-2917-49f0-ac62-9af1a4e83435)
 
 
-6.find the most frequent elemant in the array
+Printing numbers from 1 to n using a recusrive Function
 
-![findfrequentelement](https://github.com/user-attachments/assets/9ca9bde2-3faf-412e-ba84-c45549c38855)
-
-
-7.Array Operations
-
-![arrayoperations](https://github.com/user-attachments/assets/ee47fa5a-a860-4dc6-a39a-977a6d659dd9)
+![printRecursive](https://github.com/user-attachments/assets/a6c4ebb8-01a0-4d46-ac76-a2677fd24fc5)
 
 
-8.JSON
+Arrow Functions in JS
 
-![json](https://github.com/user-attachments/assets/e68e11bd-cdb9-41fc-b7a1-5dab8cc1024a)
-
-
-9.JSON Qn
-
-![jsonQn](https://github.com/user-attachments/assets/f5c552d6-49a0-4477-ae33-f94624109d3f)
+![arrowFunction](https://github.com/user-attachments/assets/af0dcf98-aac1-4d74-af30-e7459ee492dc)
 
 
+Callback Function in JS
 
-
-
-
-
-
-
-
-
-
-
+![callbackFunction](https://github.com/user-attachments/assets/c7dbd642-830d-4999-8a12-8f59a1961d35)
 
