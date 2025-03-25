@@ -1,28 +1,23 @@
-IT2234 Practical DAY_03 - 19/03/2025
+IT2234 Practical DAY_05 - 24/03/2025
+Retrieving data in a JSON array using POSTMAN
 
-FUNCTIONS IN JAVASCRIPT
+1.Display All Details
 
-OUTPUTS Functions in JS
+![AllDetails](https://github.com/user-attachments/assets/ceace2cb-c8e9-4c4a-ae4d-87c40cd0f413)
 
-![functions](https://github.com/user-attachments/assets/2bf00625-25f0-4e7b-9f00-92e285ec4a6d)
+2.Seacrh students by ID
 
+![SearchById](https://github.com/user-attachments/assets/17bb2712-6c1b-47fd-b234-a49978d96510)
 
-Finding whether a number is prime using Function
+3.Search student by gender
 
-![isPrime](https://github.com/user-attachments/assets/9dcdfa16-2917-49f0-ac62-9af1a4e83435)
+![SearchByGender](https://github.com/user-attachments/assets/72db6b0b-b0e6-4323-9bbf-99e4eb399708)
 
+4.Search student by name
 
-Printing numbers from 1 to n using a recusrive Function
-
-![printRecursive](https://github.com/user-attachments/assets/a6c4ebb8-01a0-4d46-ac76-a2677fd24fc5)
-
-
-Arrow Functions in JS
-
-![arrowFunction](https://github.com/user-attachments/assets/af0dcf98-aac1-4d74-af30-e7459ee492dc)
+![SearchByName](https://github.com/user-attachments/assets/eb09c07a-2069-49cc-a826-1386122f8d3b)
 
 
-Callback Function in JS
 
-![callbackFunction](https://github.com/user-attachments/assets/c7dbd642-830d-4999-8a12-8f59a1961d35)
+
 
