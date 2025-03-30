@@ -1,21 +1,24 @@
-IT2234 Practical DAY_05 - 24/03/2025
-Retrieving data in a JSON array using POSTMAN
+IT2234 Practical DAY_05 - 27/03/2025
+ICA 01 
 
-1.Display All Details
+Qn-1
 
-![AllDetails](https://github.com/user-attachments/assets/ceace2cb-c8e9-4c4a-ae4d-87c40cd0f413)
+![Qn1](https://github.com/user-attachments/assets/0c687df5-501e-4b3f-afe3-911969d7a419)
 
-2.Seacrh students by ID
+Qn-2
 
-![SearchById](https://github.com/user-attachments/assets/17bb2712-6c1b-47fd-b234-a49978d96510)
+![Qn2](https://github.com/user-attachments/assets/139a9b1a-1df8-4c8a-a296-a7de5b885a2d)
 
-3.Search student by gender
+Qn-3
 
-![SearchByGender](https://github.com/user-attachments/assets/72db6b0b-b0e6-4323-9bbf-99e4eb399708)
+![Qn3](https://github.com/user-attachments/assets/4c58059e-aaad-477f-a072-d8f2219eb11d)
 
-4.Search student by name
+Qn-4
 
-![SearchByName](https://github.com/user-attachments/assets/eb09c07a-2069-49cc-a826-1386122f8d3b)
+![Qn4](https://github.com/user-attachments/assets/20408b54-5d46-44e1-9074-9920ef191766)
+
+
+
 
 
 
