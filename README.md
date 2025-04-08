@@ -1,4 +1,9 @@
-![studentId](https://github.com/user-attachments/assets/c2ae0606-b2e4-431c-88df-18f035897f46)IT2234 Practical DAY_08 - 07/04/2025
+IT2234 Practical DAY_08 - 07/04/2025
+
+Note: The  folder contains  for course data,  for handling routes or logic related to courses, and  for additional course-related services or utilities. Similarly, the  folder includes  for student data,  for handling student logic, and  for additional student services or utilities. Finally, the  file outside the folders acts as the central entry point. 
+
+![file System](https://github.com/user-attachments/assets/c934403c-2786-459f-b186-1b4f20427960)
+
 
 1.To retrieve all Students
 
