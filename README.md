@@ -1,8 +1,8 @@
 IT2234 Practical DAY_08 - 07/04/2025
 
 Note: The project is structured in a modular way to maintain clarity and separation of concerns. The course folder contains coursedb.js for managing course-related data, courseroute.js for handling routes and logic specific to courses, and courseservice.js for additional services or utilities related to courses. Similarly, the student folder includes studentdb.js for student data management, studentroute.js for handling student-related logic and endpoints, and studentservice.js for various student-related services or utility functions. The index.js file, located outside these folders, serves as the central entry point of the application, typically responsible for initializing the server and registering all routes.
-![file System](https://github.com/user-attachments/assets/c934403c-2786-459f-b186-1b4f20427960)
 
+![file System](https://github.com/user-attachments/assets/c934403c-2786-459f-b186-1b4f20427960)
 
 1.To retrieve all Students
 
