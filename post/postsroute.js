@@ -1,9 +1,9 @@
 const express=require('express')
 const router=express.Router()
-const studentService=require('./studentservice')
+const postService=require('./postservice')
 
 router.get('/',(req,res)=>{
-    const results = studentService.getstudents()
+    const results = postService.getposts()
     if (results) {
         //res.json(studentSevise.getstudents()) //res.json bcz geta json output
         res.status(200).json(results)
@@ -15,7 +15,7 @@ router.get('/',(req,res)=>{
 
 router.get('/:id',(req,res)=>{
     const id = req.params.id
-    const results = studentService.getstudent(id)
+    const results = postService.getpostById(id)
     if (results) {
         //res.json(studentSevise.getstudents()) //res.json bcz geta json output
         res.status(200).json(results)
@@ -25,17 +25,7 @@ router.get('/:id',(req,res)=>{
     
 })
 
-router.get('/gender/:gen',(req,res)=>{
-    const gender = req.params.gen=='m'?'male':'female'
-    const results = studentService.getByGender(gender)
-    if (results) {
-        //res.json(studentSevise.getstudents()) //res.json bcz geta json output
-        res.status(200).json(results)
-    } else {
-        res.status(404).send("Sorry, No data found!")
-    }
-    
-})
+
 
 
 module.exports=router
