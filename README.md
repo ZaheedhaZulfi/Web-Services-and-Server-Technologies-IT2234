@@ -6,10 +6,8 @@ ICA2
 1. Create the students and grades collections and insert the sample documents into both 
 collections.
 
-![Qn1students](https://github.com/user-attachments/assets/035915c4-4ec9-4f78-9efa-fbf6ad14ca9f)
+![qn1grades](https://github.com/user-attachments/assets/f84f7e12-c344-4863-bb16-558b222b1aaa)
 
-
-![qn1grades](https://github.com/user-attachments/assets/73d51cc1-d8d9-4273-a2ff-528e7c931ffa)
 
 2. Show both collections in table view.
 
