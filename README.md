@@ -1,4 +1,3 @@
-```
 Day_12
 2025/05/15
 ICA2
@@ -6,9 +5,9 @@ ICA2
 1. Create the students and grades collections and insert the sample documents into both 
 collections.
 
-![qn1grades](https://github.com/user-attachments/assets/721ec9c1-2cd7-4636-a95a-180468aa072f)
+![Qn1students](https://github.com/user-attachments/assets/71811104-228b-4492-9885-1dd72ceeea22)
 
-
+![qn1grades](https://github.com/user-attachments/assets/a1d3a3fa-e339-4103-96fc-c9fd649e0776)
 
 2. Show both collections in table view.
 
