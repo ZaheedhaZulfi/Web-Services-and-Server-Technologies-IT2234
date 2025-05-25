@@ -1,4 +1,3 @@
-```
 Day_14 
 2025/05/19 
 
@@ -6,20 +5,7 @@ Day_14
 Method: POST
 Body (raw > JSON): Postman code:
 
-router.post('/', async (req,res)=>{
-    try {
-        const {code,name,credits,description} = req.body
-        if (!code || !name || !credits) {
-            res.status(400).send("Please provide the required fileds!")
-        } else {
-            const results = await Course.create({code,name,credits,description})
-            res.status(200).json(results)
-        }
-    } catch (error) {
-        console.error(error);
-        res.status(500).send("Server Error !")
-    }   
-})
+![post](https://github.com/user-attachments/assets/bda91878-29f5-4c85-b965-5ad976845805)
 
 ![InputCoursePost](https://github.com/user-attachments/assets/1b48c890-fecc-4a8d-add0-13d8a5ce9f11)
 
@@ -30,25 +16,8 @@ router.post('/', async (req,res)=>{
 Method: PUT
 Body (raw > JSON):Postman
 code:
-router.put('/:id', async (req,res)=>{
-    try {
-        const id = req.params.id
-        if(!mongoose.Types.ObjectId.isValid(id)){
-            return  res.status(400).send("Invaild ID !")
-        }
-        const ucourse = await Course.findById(id)
-        const {code,name,credits,description} = req.body
-        if (!code || !name || !credits) {
-            res.status(400).send("Please provide the required fileds!")
-        } else {
-            const results = await ucourse.updateOne({code,name,credits,description})
-            res.status(200).json(results)
-        }
-    } catch (error) {
-        console.error(error);
-        res.status(500).send("Server Error !")
-    }   
-})
+
+![put](https://github.com/user-attachments/assets/4d489ed8-bc8d-49fa-a5db-f5c913b4330b)
 
 ![UpdateContentPut](https://github.com/user-attachments/assets/6a00ba0a-1d70-4930-9afb-ad6a0560c0bd)
 
@@ -59,28 +28,18 @@ Method: DELETE
 Body (raw > JSON):Postman
 code:
 
-router.delete('/:id', async (req,res)=>{
-    try {
-        const id = req.params.id
-        if(!mongoose.Types.ObjectId.isValid(id)){
-            return  res.status(400).send("Invaild ID !")
-        }
-        const dcourse = await Course.findById(id)
-        const results = await dcourse.deleteOne().catch(
-            (error)=>{ return res.status(500).json(error)}
-        )
-        res.status(200).json(results)
-        
-    } catch (error) {
-        console.error(error);
-
-        res.status(500).send("Server Error !")
-    }   
-})
+![delete](https://github.com/user-attachments/assets/f1aae15f-e6c4-4b34-903f-b34d660e4b3e)
 
 ![DtidentDetailsWithDegreePstmn](https://github.com/user-attachments/assets/77b54bab-b4d7-4c83-8018-8dd1c8e3fce5)
 
 ![degreeDetails](https://github.com/user-attachments/assets/1f23f0da-3a9d-448f-8ce3-fd40a8561f0b)
+
+4.POPULATE
+Student Details with Degree Details
+
+![studentpopulate](https://github.com/user-attachments/assets/5e179aea-8ff0-4407-86af-9dd7e4d67e5c)
+
+![StudentDetailWithDegreePostman ](https://github.com/user-attachments/assets/5a88f0a0-6dea-4916-bf75-594c44195772)
 
 
 
