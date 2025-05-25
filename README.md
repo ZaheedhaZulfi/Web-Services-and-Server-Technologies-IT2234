@@ -1,43 +1,61 @@
-Day_14 
-2025/05/19 
+Day_15 
+2025/05/22
 
-1. INSERT
-Method: POST
-Body (raw > JSON): Postman code:
+1.Employee Routes (/employee)
 
-![post](https://github.com/user-attachments/assets/bda91878-29f5-4c85-b965-5ad976845805)
+POST /employees – Add new employees
 
-![InputCoursePost](https://github.com/user-attachments/assets/1b48c890-fecc-4a8d-add0-13d8a5ce9f11)
-
-![InputCourseinMDB](https://github.com/user-attachments/assets/5bafe140-361b-4cb4-8ee7-ee7408efa2ef)
-
-2.UPDATE
-Method: PUT
-Body (raw > JSON):Postman
-code:
-
-![put](https://github.com/user-attachments/assets/4d489ed8-bc8d-49fa-a5db-f5c913b4330b)
-
-![UpdateContentPut](https://github.com/user-attachments/assets/6a00ba0a-1d70-4930-9afb-ad6a0560c0bd)
-
-![UpdatedContentPutMDB](https://github.com/user-attachments/assets/2f0aad3d-acbd-4db7-ace0-bcdd176302f6)
-
-3.DELETE
-Method: DELETE
-Body (raw > JSON):Postman
-code:
-
-![delete](https://github.com/user-attachments/assets/64e26895-b6e9-4539-a160-0ad065f56b9e)
-
-![deletepostman](https://github.com/user-attachments/assets/0cc89d14-2599-4fd0-88ac-4d07ebb9ef85)
+![employeePOSTman](https://github.com/user-attachments/assets/115f452c-2298-4a43-ba8b-b35454a40381)
 
 
-4.POPULATE
-Student Details with Degree Details
+GET / – Retrieve all employees
 
-![studentpopulate](https://github.com/user-attachments/assets/5e179aea-8ff0-4407-86af-9dd7e4d67e5c)
+![getemployeePOSTMAN1](https://github.com/user-attachments/assets/77df5d64-e9f2-4135-b9cf-43b333b66405)
 
-![StudentDetailWithDegreePostman ](https://github.com/user-attachments/assets/5a88f0a0-6dea-4916-bf75-594c44195772)
+![getEmployeePOSTMAN2](https://github.com/user-attachments/assets/8102c466-d218-4848-92c7-2473d61a9fe9)
+
+![getemployeePOSTMAN3](https://github.com/user-attachments/assets/f9482ee6-12f8-48da-885d-6d679cbe5dc0)
+
+
+GET /employeesWithDept – Get employees with department details
+
+![employeewithDepartment1](https://github.com/user-attachments/assets/6c78d436-2d3b-40da-99f6-c4d125cd990e)
+
+![employeewithDepartment2](https://github.com/user-attachments/assets/297e3da8-0a1c-40d9-8225-420261ec7db9)
+
+
+GET /employeesWithProjects – Get employees with project details
+
+![employeewithProjectDetailsPOSTMAN](https://github.com/user-attachments/assets/ff387033-b568-4445-a794-aba5dbf3fe06)
+
+2.Department Routes (/department)
+
+POST /departments – Add new departments
+
+![departmentinputPOSTman](https://github.com/user-attachments/assets/be92cb0d-2294-48ab-9cf6-80e9efcae9e4)
+
+3.Project Routes (/project)
+
+POST /projects – Add new projects
+
+![projectsinputPOSTman](https://github.com/user-attachments/assets/6ae42cc8-77d9-4956-a010-fc5377f79bd5)
+
+4.ETF Routes (/etf)
+
+POST /etfs – Add ETF records
+
+![etfinputPOSTman](https://github.com/user-attachments/assets/758a1418-6d21-4e2b-8d96-3928484814d1)
+
+GET / – Retrieve all ETF records
+
+![getetfdetails](https://github.com/user-attachments/assets/6658868d-1fb0-4132-8f81-3771ba3edcff)
+
+GET /etfsWithEmployee – Get ETF records with employee information
+
+![etfWithEmployee](https://github.com/user-attachments/assets/cb8abb81-1efd-475f-a349-3dcd76b83067)
+
+
+
 
 
 
