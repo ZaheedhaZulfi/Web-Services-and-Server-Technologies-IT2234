@@ -26,6 +26,7 @@ code:
 Method: DELETE
 Body (raw > JSON):Postman
 code:
+
 ![delete](https://github.com/user-attachments/assets/64e26895-b6e9-4539-a160-0ad065f56b9e)
 
 ![deletepostman](https://github.com/user-attachments/assets/0cc89d14-2599-4fd0-88ac-4d07ebb9ef85)
