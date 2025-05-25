@@ -11,7 +11,6 @@ Body (raw > JSON): Postman code:
 
 ![InputCourseinMDB](https://github.com/user-attachments/assets/5bafe140-361b-4cb4-8ee7-ee7408efa2ef)
 
-
 2.UPDATE
 Method: PUT
 Body (raw > JSON):Postman
