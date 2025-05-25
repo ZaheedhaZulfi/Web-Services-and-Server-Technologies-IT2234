@@ -27,12 +27,10 @@ code:
 Method: DELETE
 Body (raw > JSON):Postman
 code:
+![delete](https://github.com/user-attachments/assets/64e26895-b6e9-4539-a160-0ad065f56b9e)
 
-![delete](https://github.com/user-attachments/assets/f1aae15f-e6c4-4b34-903f-b34d660e4b3e)
+![deletepostman](https://github.com/user-attachments/assets/0cc89d14-2599-4fd0-88ac-4d07ebb9ef85)
 
-![DtidentDetailsWithDegreePstmn](https://github.com/user-attachments/assets/77b54bab-b4d7-4c83-8018-8dd1c8e3fce5)
-
-![degreeDetails](https://github.com/user-attachments/assets/1f23f0da-3a9d-448f-8ce3-fd40a8561f0b)
 
 4.POPULATE
 Student Details with Degree Details
