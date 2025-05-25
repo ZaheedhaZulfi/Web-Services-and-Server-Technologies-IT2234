@@ -3,10 +3,14 @@ const app=express();
 const port=3001;
 const mongoose=require('mongoose')
 const coursert = require('./routes/courseRoute')
+const studentsert = require('./routes/studentRoute')
+const degreesert = require('./routes/degreeRoute')
 
 app.use(express.json())
 app.use('/course',coursert)
-mongoose.connect('mongodb://localhost:27017/studentinfDB').then(()=>
+app.use('/student',studentsert)
+app.use('/degree',degreesert)
+mongoose.connect('mongodb://localhost:27017/studentinfoDB').then(()=>
  {
     console.log("Database connected")
 }).catch((error)=>{
@@ -15,4 +19,5 @@ mongoose.connect('mongodb://localhost:27017/studentinfDB').then(()=>
 
 app.listen(port,()=>{
     console.log(`server is running on ${port}`);
+
 })

@@ -7,11 +7,11 @@ const courseSchema= new mongoose.Schema({
 })
 
 const Course=mongoose.model('courses',courseSchema)
-const webservice= new Course({
+/*const webservice= new Course({
     code:'IT2234',
     name:'Practical for WebService',
     credits:3,
     description:'Build a REST API with Node.js technology'
 })
-webservice.save()
+webservice.save()*/
 module.exports=Course

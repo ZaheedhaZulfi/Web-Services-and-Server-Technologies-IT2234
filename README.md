@@ -1,22 +1,43 @@
-Day_13 2025/05/17 
+Day_14 
+2025/05/19 
 
-1.Connecting database
+1. INSERT
+Method: POST
+Body (raw > JSON): Postman code:
 
-![database Connected](https://github.com/user-attachments/assets/0fa70a70-cffb-4e98-a12b-41725c42b509)
+![post](https://github.com/user-attachments/assets/bda91878-29f5-4c85-b965-5ad976845805)
 
-2.Get all course details
+![InputCoursePost](https://github.com/user-attachments/assets/1b48c890-fecc-4a8d-add0-13d8a5ce9f11)
 
-![Course1](https://github.com/user-attachments/assets/bfbcfedc-35a2-4507-a835-320be9c00ad4)
+![InputCourseinMDB](https://github.com/user-attachments/assets/5bafe140-361b-4cb4-8ee7-ee7408efa2ef)
 
-![Course2](https://github.com/user-attachments/assets/f1f8f234-f1e7-48c0-94b5-beecc8744025)
+2.UPDATE
+Method: PUT
+Body (raw > JSON):Postman
+code:
 
-3.Get data by ID
+![put](https://github.com/user-attachments/assets/4d489ed8-bc8d-49fa-a5db-f5c913b4330b)
 
-![byId](https://github.com/user-attachments/assets/0a7534db-f20d-4ed0-9fb2-b6125dd20e9f)
+![UpdateContentPut](https://github.com/user-attachments/assets/6a00ba0a-1d70-4930-9afb-ad6a0560c0bd)
 
-4.Get data by coursecode
+![UpdatedContentPutMDB](https://github.com/user-attachments/assets/2f0aad3d-acbd-4db7-ace0-bcdd176302f6)
 
-![byCourseId](https://github.com/user-attachments/assets/05971bf6-0bb8-48c7-beaf-4b2bf849af56)
+3.DELETE
+Method: DELETE
+Body (raw > JSON):Postman
+code:
+
+![delete](https://github.com/user-attachments/assets/64e26895-b6e9-4539-a160-0ad065f56b9e)
+
+![deletepostman](https://github.com/user-attachments/assets/0cc89d14-2599-4fd0-88ac-4d07ebb9ef85)
+
+
+4.POPULATE
+Student Details with Degree Details
+
+![studentpopulate](https://github.com/user-attachments/assets/5e179aea-8ff0-4407-86af-9dd7e4d67e5c)
+
+![StudentDetailWithDegreePostman ](https://github.com/user-attachments/assets/5a88f0a0-6dea-4916-bf75-594c44195772)
 
 
 
