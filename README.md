@@ -1,59 +1,44 @@
-Day_15 
-2025/05/22
+Day_16
+2025/05/26
 
-1.Employee Routes (/employee)
+1.Fetches all ETF records with their associated employee details populated.
 
-POST /employees – Add new employees
-
-![employeePOSTman](https://github.com/user-attachments/assets/115f452c-2298-4a43-ba8b-b35454a40381)
+![ETF with Employee Detail](https://github.com/user-attachments/assets/f50576e2-9918-46b6-bd38-c0b7cafad8c3)
 
 
-GET / – Retrieve all employees
+2.Retrieves all project documents from the database.
 
-![getemployeePOSTMAN1](https://github.com/user-attachments/assets/77df5d64-e9f2-4135-b9cf-43b333b66405)
-
-![getEmployeePOSTMAN2](https://github.com/user-attachments/assets/8102c466-d218-4848-92c7-2473d61a9fe9)
-
-![getemployeePOSTMAN3](https://github.com/user-attachments/assets/f9482ee6-12f8-48da-885d-6d679cbe5dc0)
+![Project Details](https://github.com/user-attachments/assets/ab6a5fdf-3438-4a6d-b06c-8c84978d08e8)
 
 
-GET /employeesWithDept – Get employees with department details
+3.Retrieves all department documents.
 
-![employeewithDepartment1](https://github.com/user-attachments/assets/6c78d436-2d3b-40da-99f6-c4d125cd990e)
-
-![employeewithDepartment2](https://github.com/user-attachments/assets/297e3da8-0a1c-40d9-8225-420261ec7db9)
+![Department Details](https://github.com/user-attachments/assets/e2942221-54f2-4d88-969e-a90df6fc11cd)
 
 
-GET /employeesWithProjects – Get employees with project details
+4.Fetches all employees belonging to the department with ID D01.
 
-![employeewithProjectDetailsPOSTMAN](https://github.com/user-attachments/assets/ff387033-b568-4445-a794-aba5dbf3fe06)
+![Employee Department details using DID](https://github.com/user-attachments/assets/5eda3870-913e-4a65-ac26-50103dfc2468)
 
-2.Department Routes (/department)
 
-POST /departments – Add new departments
+5.Retrieves all employees along with their respective department details.
 
-![departmentinputPOSTman](https://github.com/user-attachments/assets/be92cb0d-2294-48ab-9cf6-80e9efcae9e4)
+![Employee Department Details](https://github.com/user-attachments/assets/3081f7f5-b979-4d5f-b0c4-c18de3b3e732)
 
-3.Project Routes (/project)
 
-POST /projects – Add new projects
+6.Retrieves all employees along with the details of the projects they are assigned to.
 
-![projectsinputPOSTman](https://github.com/user-attachments/assets/6ae42cc8-77d9-4956-a010-fc5377f79bd5)
+![Employee details with Project](https://github.com/user-attachments/assets/98307ab0-6e94-407b-ae19-abd59836e61d)
 
-4.ETF Routes (/etf)
 
-POST /etfs – Add ETF records
+7.find out how many employees are working in a  department
 
-![etfinputPOSTman](https://github.com/user-attachments/assets/758a1418-6d21-4e2b-8d96-3928484814d1)
+![countByDepartment](https://github.com/user-attachments/assets/17ecdb9f-bf9c-464a-a6c7-99a5ca4964c1)
 
-GET / – Retrieve all ETF records
 
-![getetfdetails](https://github.com/user-attachments/assets/6658868d-1fb0-4132-8f81-3771ba3edcff)
+8.show the employee count  along with each department details
 
-GET /etfsWithEmployee – Get ETF records with employee information
-
-![etfWithEmployee](https://github.com/user-attachments/assets/cb8abb81-1efd-475f-a349-3dcd76b83067)
-
+![departmentEmployeeCounts](https://github.com/user-attachments/assets/91507640-61dd-433e-ba5e-bf6d80e29de3)
 
 
 
