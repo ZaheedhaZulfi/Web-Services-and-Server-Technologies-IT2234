@@ -40,6 +40,14 @@ Day_16
 
 ![departmentEmployeeCounts](https://github.com/user-attachments/assets/91507640-61dd-433e-ba5e-bf6d80e29de3)
 
+9.Show employee with project count
+
+![EmployeesWithProjectCount](https://github.com/user-attachments/assets/fa542d10-a107-4e0e-8722-8f45fad4616e)
+
+10.get employee count in department
+
+![getemployeeCount in Department](https://github.com/user-attachments/assets/14543742-82f2-4d5d-80a0-1de6e80adb2d)
+
 
 
 
