@@ -1,55 +1,30 @@
-Day_16
-2025/05/26
+Day_18
+9th June 2025 ICA_3
 
-1.Fetches all ETF records with their associated employee details populated.
+1.Filter the books by their genre. 
 
-![ETF with Employee Detail](https://github.com/user-attachments/assets/f50576e2-9918-46b6-bd38-c0b7cafad8c3)
+![Qn2](https://github.com/user-attachments/assets/763224b5-82e8-4f0d-91b2-09f46ae5891c)
 
+2. Filter the students by the year.
 
-2.Retrieves all project documents from the database.
+![Qn3](https://github.com/user-attachments/assets/373db906-e69c-45d8-bd1b-fc564430b417)
 
-![Project Details](https://github.com/user-attachments/assets/ab6a5fdf-3438-4a6d-b06c-8c84978d08e8)
+   
+3. Use a common function to perform tasks 2 and 3. 
+4. To borrow a book, the library staff should enter the student ID and book ID, but 
+before the borrowing process, validate the following conditions: 
+a. Ensure that the student and book IDs are available in the database.
 
+![Qn5_a](https://github.com/user-attachments/assets/ec0988e6-10a7-4058-88cc-f2bab5150ee1)
 
-3.Retrieves all department documents.
+![Qn5_a_bookid](https://github.com/user-attachments/assets/06e6163a-64cb-4bbb-a72c-005220fd252a)
 
-![Department Details](https://github.com/user-attachments/assets/e2942221-54f2-4d88-969e-a90df6fc11cd)
+b. If the student has more than two unreturned books, he/she is not eligible to 
+borrow a new book.  
 
+![Qn5_b](https://github.com/user-attachments/assets/5b145c4f-2c97-4d8c-8473-8fd6b8513384)
 
-4.Fetches all employees belonging to the department with ID D01.
-
-![Employee Department details using DID](https://github.com/user-attachments/assets/5eda3870-913e-4a65-ac26-50103dfc2468)
-
-
-5.Retrieves all employees along with their respective department details.
-
-![Employee Department Details](https://github.com/user-attachments/assets/3081f7f5-b979-4d5f-b0c4-c18de3b3e732)
-
-
-6.Retrieves all employees along with the details of the projects they are assigned to.
-
-![Employee details with Project](https://github.com/user-attachments/assets/98307ab0-6e94-407b-ae19-abd59836e61d)
-
-
-7.find out how many employees are working in a  department
-
-![countByDepartment](https://github.com/user-attachments/assets/17ecdb9f-bf9c-464a-a6c7-99a5ca4964c1)
-
-
-8.show the employee count  along with each department details
-
-![departmentEmployeeCounts](https://github.com/user-attachments/assets/91507640-61dd-433e-ba5e-bf6d80e29de3)
-
-9.Get employees with project count
-
-![EmployeesWithProjectCount](https://github.com/user-attachments/assets/a71c8088-5e96-4978-92ad-70c84b85bc41)
-
-10.Get employeecount in department
-
-![getemployeeCount in Department](https://github.com/user-attachments/assets/5ef2e0d2-0307-4064-af6d-81cdfc404955)
-
-
-
-
+c. The library should maintain at least one copy available that is not for lending.  
+d. When a book is borrowed, decrease the available copy by one. 
 
 
